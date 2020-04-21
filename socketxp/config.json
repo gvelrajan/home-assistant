@@ -1,0 +1,40 @@
+{
+	"name": "SocketXP - Remote Access",
+	"version": "1.0.0",
+	"slug": "socketxp",
+	"description": "Secure remote access without public IP or configuring NAT. Account registration required.",
+	"url": "https://www.socketxp.com/documentation",
+	"arch": ["armhf", "aarch64", "amd64"],
+	"startup": "application",
+	"boot": "auto",
+    "host_network": true,
+    "map": ["ssl:rw"],
+    "image": "socketxp/home-assistant-{arch}",
+	"options": {
+        "authtoken": "null",
+		"tunnel_enabled": true,
+		"tunnel" : {
+		    "destination": "http://127.0.0.1:8123",
+		    "protocol": "tls",			
+		    "custom_domain": "example.duckdns.org"	
+		},
+		"relay_enabled": false, 
+		"relay": {
+			"destination": "https://127.0.0.1:8123"
+		}
+	},
+	"schema": {
+		"authtoken": "str",
+        "tunnel_enabled": "bool",
+        "tunnel" : {
+        	"destination": "url",
+            "protocol": "str?",               
+            "custom_domain": "str?"
+        },
+        "relay_enabled": "bool",
+        "relay": {
+            "destination": "url"
+        }
+	}
+}	
+
