@@ -9,7 +9,7 @@
 	"boot": "auto",
     "host_network": true,
     "map": ["ssl:rw"],
-    "image": "socketxp/home-assistant-{arch}",
+    "image": "expresssocket/home-assistant-{arch}",
 	"options": {
         "authtoken": "null",
 		"tunnel_enabled": true,
