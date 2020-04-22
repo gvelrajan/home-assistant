@@ -1,5 +1,5 @@
 <p align="center">
-    <a href="https://socketxp.com" target="_blank"><img width="100"src="https://github.com/socketxp-com/home-assistant/blob/master/socketxp/logo.png"></a>
+    <a href="https://socketxp.com" target="_blank"><img width="100"src="https://www.socketxp.com/wp-content/uploads/2019/06/socketxp-logo-darknavy.png"></a>
 </p>
 
 # Hass.io Add-on: SocketXP
@@ -8,7 +8,7 @@ Secure and fast reverse tunnels for your Home Assistant.
 
 
 <p align="center">
-    <a href="https://www.socketxp.com/documentation" target="_blank"><img src="https://www.socketxp.com/wp-content/uploads/2019/02/nodejs-public-url.jpg"></a>
+    <a href="https://www.socketxp.com/documentation" target="_blank"><img src="https://www.socketxp.com/wp-content/uploads/2020/04/SocketXP-Hassio.jpg"></a>
 </p>
 
 # About
