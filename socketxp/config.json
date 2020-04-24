@@ -13,28 +13,36 @@
     "options": {
         "authtoken": "null",
         "tunnel_enabled": true,
-        "tunnel" : {
-            "destination": "https://127.0.0.1:8123",
-            "protocol": "tls",          
-            "custom_domain": "example.duckdns.org"  
-        },
+        "tunnels" : [
+            {
+                "destination": "https://127.0.0.1:8123",
+                "protocol": "tls",
+                "custom_domain": "example.duckdns.org"
+            }
+        ],
         "relay_enabled": false, 
-        "relay": {
-            "destination": "https://127.0.0.1:8123"
-        }
+        "relays": [
+            {
+                "destination": "https://127.0.0.1:8123"
+            }
+        ]
     },
     "schema": {
         "authtoken": "str",
         "tunnel_enabled": "bool",
-        "tunnel" : {
-            "destination": "url",
-            "protocol": "str?",               
-            "custom_domain": "str?"
-        },
+        "tunnels" : [
+            {
+                "destination": "url",
+                "protocol": "str?",
+                "custom_domain": "str?"
+            }
+        ],
         "relay_enabled": "bool",
-        "relay": {
-            "destination": "url"
-        }
+        "relays": [
+            {
+                "destination": "url"
+            }
+        ]
     }
-}   
+}
 
