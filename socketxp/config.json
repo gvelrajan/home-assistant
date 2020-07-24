@@ -1,6 +1,6 @@
 {
     "name": "SocketXP - Remote Access",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "slug": "socketxp",
     "description": "Secure remote access without public IP or configuring NAT. Account registration required.",
     "url": "https://www.socketxp.com/documentation",
